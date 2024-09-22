@@ -1,0 +1,83 @@
+body{
+  font-family:  sans-serif;
+  background: rgb(62,224,224);
+  background: radial-gradient(circle, rgba(62,224,224,1) 0%, rgba(47,68,139,1) 100%);
+display: flex;
+font-family: "Montserrat", sans-serif;
+flex-direction: column;
+align-items: center;
+}
+.weatherform{
+    margin: 20px;
+}
+.cityInput{
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    width: 300px;
+    color: rgb(84, 95, 114);
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight:300 ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgb(90, 203, 207);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color:rgb(6, 77, 80); ;
+}
+.card{
+    background-color: white;
+    
+    padding:50px ;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3.5rem;
+    margin: 0;
+    color: rgb(12, 12, 12);
+    font-weight: 500;
+}
+.weatheremoji{
+font-size: 7rem;
+margin: 0;
+}
+p{
+    font-size: 1.1rem;
+    margin: 5px;
+}
+.citydisplay,.tempdisplay{
+    font-size: 2rem;
+}
+.humid ,.pressuredisplay{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.descdisplay{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(7, 80, 80);
+}
+.errordisplay{
+    color: black;
+    font-size: 1.6rem;
+}
+.humidity-pressure-container {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin: 10px;
+}
