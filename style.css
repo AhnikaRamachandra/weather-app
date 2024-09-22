@@ -81,3 +81,60 @@ p{
     justify-content: space-between;
     margin: 10px;
 }
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 30px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .weatheremoji {
+        font-size: 5rem;
+    }
+
+    .citydisplay, .tempdisplay {
+        font-size: 1.5rem;
+    }
+
+    .humidity-pressure-container {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .weatheremoji {
+        font-size: 4rem;
+    }
+
+    .citydisplay, .tempdisplay {
+        font-size: 1.3rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1.2rem;
+        max-width: 150px;
+    }
+
+    .cityInput {
+        font-size: 1.2rem;
+    }
+
+    .humidity-pressure-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
